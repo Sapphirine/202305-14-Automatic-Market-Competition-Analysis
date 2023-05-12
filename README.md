@@ -1,3 +1,9 @@
+<img width="808" alt="overview" src="https://github.com/Sapphirine/202305-14-Automatic-Market-Competition-Analysis/assets/124201517/31705413-ecbb-4ddd-8e0e-56276732e62f">
+
+<br/>
+
+<br/>
+
 The fully commented code is in ```eecs6895.ipynb```. We copied the code to the python files for front-end development, but the content is the same.
 
 To run the application locally, run ```run.bat``` and open ```ui.html```.
