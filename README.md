@@ -5,7 +5,10 @@ For Mac M1/M2 CPU, the installation of required packages are a bit complicated. 
 
 It take 2-3 minutes for the final results to show on the screen. You can also open Steam Game Data Analysis.html in the example_result folder to view an example result.
 
-For category, please enter one of the following choices:
+
+
+
+For _category_, please enter one of the following choices:
 ['multi-player',
  'online multi-player',
  'local multi-player',
@@ -36,7 +39,7 @@ For category, please enter one of the following choices:
  'mods (require hl2)',
  'steam turn notifications']
  
- For tag, please enter one of the following:
+ For _tag_, please enter one of the following:
  ['action',
  'fps',
  'multiplayer',
@@ -160,7 +163,7 @@ For category, please enter one of the following choices:
  'replay value',
  'pixel graphics']
  
- For genre, please enter one of the following:
+ For _genre_, please enter one of the following:
  ['action',
  'free to play',
  'strategy',
