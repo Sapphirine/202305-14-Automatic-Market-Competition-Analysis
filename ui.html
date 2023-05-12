@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Steam Game Data Analysis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Steam Game Data Analysis</h1>
+    </header>
+    <form id="myForm">
+      <div class="form-group">
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" />
+      </div>
+      <div class="form-group">
+        <label for="tag">Tag:</label>
+        <input type="text" id="tag" name="tag" />
+      </div>
+      <div class="form-group">
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" />
+      </div>
+      <button type="button" id="sendDataBtn">Submit</button>
+    </form>
+    <div id="user_input"></div>
+    <div id="stage"></div>
+    <div id="similar_games"></div>
+    <div id="game_stats_analysis"></div>
+    <div id="pos_user_reviews"></div>
+    <div id="neg_user_reviews"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

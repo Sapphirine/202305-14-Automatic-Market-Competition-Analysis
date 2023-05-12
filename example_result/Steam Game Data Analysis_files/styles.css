@@ -1,0 +1,157 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+form {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  display: block;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input[type="text"],
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #444;
+  width: 220px;
+}
+#user_input {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+  text-align: center;
+  display: none;
+}
+#stage {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+  text-align: center;
+  display: none;
+}
+#similar_games {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  display: none;
+}
+
+#similar_games h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#similar_games p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#game_stats_analysis {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: none;
+}
+
+#game_stats_analysis img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+#pos_user_reviews {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+  /* text-align: center; */
+  display: none;
+}
+
+#pos_user_reviews span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#pos_user_reviews img {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+#neg_user_reviews {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+  /* text-align: center; */
+  display: none;
+}
+
+#neg_user_reviews span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#neg_user_reviews img {
+  width: 45%;
+  margin-bottom: 20px;
+}
